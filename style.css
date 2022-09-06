@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    
+}
+body{
+    background:rgb(99, 84, 84);
+}
+
+
+
+.header{
+    background: white;
+    height: 90vh;
+    
+}
+
+.header p{
+    margin: 1rem;
+    
+}
+
+
+
+.sub-header{
+    text-align: center;
+}
+
+/* 
+ */
+
+
+.sub-header1{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.section1 {
+    background: rgb(209, 198, 198);
+    text-align: center;
+    height: 40vh;
+    border-bottom-left-radius: 20% ;
+    border-bottom-right-radius: 15% ;
+    
+}
+
+.sub-section{
+    background:rgb(99, 84, 84);
+    height: 30vh;
+}
+.section1 h1{
+    position: relative;
+    top: 2rem;
+}
+
+.section1 button{
+    position: relative;
+    top: 3rem;
+}
+
+.warning{
+    background-color:yellow;
+    height: 1.5rem;
+    width: 7rem;
+}
+
+.light{
+    background-color: beige;
+    height: 1.5rem;
+    width: 10rem;
+}
+
+
+
+
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+
+.container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+}
+ .footbar ul{
+    display: flex;
+    margin: -10px;
+ }
+ .icon{
+    margin: 20px;
+    font-size: 25px;
+ }
+
+.on{
+    padding: 17px;
+}
+
+
+.footbar  p{
+    position: relative;
+    left: 7px;
+    margin: 5;
+} 
+
+.section{
+    /* background: grey; */
+}
